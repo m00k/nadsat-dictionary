@@ -31,7 +31,7 @@
     font-size: calc(.333vw + 1em);
     font-family: var(--font-plain);
     background-color: var(--color-dark);
-    color: var(--color-light)
+    color: var(--color-light);
 }
 
 *,
@@ -44,7 +44,7 @@
     overflow-wrap: break-word;
     margin: 0;
     padding: 0;
-    border: 0 solid
+    border: 0 solid;
 }
 
 body {
@@ -52,29 +52,29 @@ body {
 }
 
 [hidden] {
-    display: none
+    display: none;
 }
 
 [hidden]+* {
-    margin-top: 0 !important
+    margin-top: 0 !important;
 }
 
 footer,
 header,
 main,
 nav {
-    display: block
+    display: block;
 }
 
 @media (prefers-reduced-motion:no-preference) {
-    html:focus-within {
+    html {
         scroll-behavior: smooth
     }
 }
 
 :focus {
     outline: var(--border-thin) solid var(--color-mid);
-    outline-offset: var(--border-thin)
+    outline-offset: var(--border-thin);
 }
 
 [tabindex="-1"]:focus,
