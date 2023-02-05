@@ -97,7 +97,8 @@ img {
 
 table {
     width: 100%;
-    border-collapse: collapse
+    border-collapse: collapse;
+    word-break: break-word;
 }
 
 table code {
