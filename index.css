@@ -213,5 +213,29 @@ table:first-of-type {
 }
 
 h3:target {
-    scroll-margin-top: 4.4em;
+    scroll-margin-top: 9em;
+}
+
+@media(min-width: 316px) {
+    h3:target {
+        scroll-margin-top: 7.6em;
+    }
+}
+
+@media(min-width: 407px) {
+    h3:target {
+        scroll-margin-top: 6em;
+    }
+}
+
+@media(min-width: 620px) {
+    h3:target {
+        scroll-margin-top: 4.4em;
+    }
+}
+
+@media(min-width: 1558px) {
+    h3:target {
+        scroll-margin-top: 2.75em;
+    }
 }
