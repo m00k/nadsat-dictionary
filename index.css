@@ -206,3 +206,12 @@ td:first-child.index {
     font-weight: 700;
     font-size: var(--s2);
 }
+
+table:first-of-type {
+    position: sticky;
+    top: 0;
+}
+
+h3:target {
+    scroll-margin-top: 4.4em;
+}
