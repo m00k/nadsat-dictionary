@@ -239,3 +239,7 @@ h3:target {
         scroll-margin-top: 2.75em;
     }
 }
+
+a {
+    text-decoration: underline;
+}
